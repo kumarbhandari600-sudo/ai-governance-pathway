@@ -31,7 +31,7 @@ See the [Project Board](https://github.com/kumarbhandari600-sudo/ai-governance-p
 
 ### Project Schedule
 
-```gantt
+```mermaid
     title Part B Project Plan
     dateFormat  YYYY-MM-DD
     axisFormat %W
