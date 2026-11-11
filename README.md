@@ -51,7 +51,7 @@ AI inference has an environmental cost. Li et al. (2025) model a scenario where 
 ## Acknowledgements
 
 Academic Mentor. AI Use Statement: Claude used for structure critique and grammar checking.
-gantt
+``` gantt
     title Part B Project Plan
     dateFormat  X
     axisFormat %s
@@ -71,4 +71,4 @@ gantt
     section Document
     4.1 Evaluation report (Kumar) :a11, 10, 1w
     4.2 Handover document (Reejan) :a12, 10, 1w
-    4.3 Final submission (Kumar) :a13, 10, 1w
+    4.3 Final submission (Kumar) :a13, 10, 1w ```
