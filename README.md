@@ -29,29 +29,10 @@ See the [Project Board](https://github.com/kumarbhandari600-sudo/ai-governance-p
 - Week 8: Four checkpoints defined
 - Week 10: Bias-audit protocol documented and validation complete
 
-## Ethics, privacy and responsible AI
+### Project Schedule
 
-This project is bound by the ACS Code of Professional Conduct, Australia's AI Ethics Principles, and the NIST AI RMF. The key ethical dilemma is algorithmic bias in AI-assisted prioritisation. The Measure checkpoint requires a bias-audit protocol with measurable fairness indicators.
-
-## Sustainability
-
-AI inference has an environmental cost. Li et al. (2025) model a scenario where GPT-3 consumes a 500ml bottle of water for roughly 10–50 medium-length responses. The pathway includes an environmental impact assessment as part of the Measure checkpoint.
-
-## Team
-
-- **Kumar Jung Bhandari** (shea26023) — evidence review, gap analysis, methodology, project plan, risk register
-- **Reejan Khadka** (shea26024) — ethics, sustainability, stakeholder plan, bias-audit protocol
-
-## Documents
-
-- [Risk Register](docs/risk-register.md)
-- [RACI Matrix](docs/raci.md)
-- [Methodology](docs/methodology.md)
-
-## Acknowledgements
-
-Academic Mentor. AI Use Statement: Claude used for structure critique and grammar checking.
-```gantt
+```mermaid
+gantt
     title Part B Project Plan
     dateFormat  X
     axisFormat %s
@@ -71,4 +52,4 @@ Academic Mentor. AI Use Statement: Claude used for structure critique and gramma
     section Document
     4.1 Evaluation report (Kumar) :a11, 10, 1w
     4.2 Handover document (Reejan) :a12, 10, 1w
-    4.3 Final submission (Kumar) :a13, 10, 1w```
+    4.3 Final submission (Kumar) :a13, 10, 1w
