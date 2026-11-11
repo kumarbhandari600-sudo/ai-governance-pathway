@@ -51,3 +51,24 @@ AI inference has an environmental cost. Li et al. (2025) model a scenario where 
 ## Acknowledgements
 
 Academic Mentor. AI Use Statement: Claude used for structure critique and grammar checking.
+gantt
+    title Part B Project Plan
+    dateFormat  X
+    axisFormat %s
+    section Discovery
+    1.1 Review evidence (Kumar) :a1, 1, 1w
+    1.2 Draft checkpoints (Reejan) :a2, after a1, 2w
+    1.3 Design protocol (Reejan) :a3, 4, 2w
+    section Build
+    2.1 Build templates (Kumar) :a4, 6, 2w
+    2.2 Build protocol (Reejan) :a5, 6, 2w
+    2.3 Build framework (Kumar) :a6, 8, 1w
+    section Validate
+    3.1 Ethics application (Reejan) :a7, 6, 1w
+    3.2 Internal review (Kumar) :a8, 9, 1w
+    3.3 External review 1 (Reejan) :a9, 9, 2w
+    3.4 External review 2 (Kumar) :a10, 9, 2w
+    section Document
+    4.1 Evaluation report (Kumar) :a11, 10, 1w
+    4.2 Handover document (Reejan) :a12, 10, 1w
+    4.3 Final submission (Kumar) :a13, 10, 1w
