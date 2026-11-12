@@ -30,5 +30,4 @@ See the [Project Board](https://github.com/kumarbhandari600-sudo/ai-governance-p
 - Week 10: Bias-audit protocol documented and validation complete
 
 ### Project Schedule
-
-![Part B Project Plan](part_b_project_plan_weeks_1_10.png)
+![Part B Project Plan](docs/part_b_project_plan_weeks_1_10.png)
