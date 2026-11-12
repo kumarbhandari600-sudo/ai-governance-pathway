@@ -30,32 +30,38 @@ See the [Project Board](https://github.com/kumarbhandari600-sudo/ai-governance-p
 - Week 10: Bias-audit protocol documented and validation complete
 
 ### Project Schedule
-
 ```mermaid
 gantt
-    title Part B Project Plan
-    dateFormat  YYYY-MM-DD
-    axisFormat %W
-    
-    section Discovery
-    1.1 Review evidence (Kumar) :crit, t11, 2026-11-09, 7d
-    1.2 Draft checkpoints (Reejan) :crit, t12, after t11, 14d
-    1.3 Design protocol (Reejan) :t13, 2026-11-30, 14d
-    
-    section Build
-    2.1 Build templates (Kumar) :t21, 2026-12-14, 14d
-    2.2 Build protocol (Reejan) :crit, t22, 2026-12-14, 14d
-    2.3 Build framework (Kumar) :t23, 2026-12-28, 7d
-    
-    section Validate
-    3.1 Ethics application (Reejan) :t31, 2026-12-14, 7d
-    3.2 Internal review (Kumar) :crit, t32, 2027-01-04, 7d
-    3.3 External review 1 (Reejan) :crit, t33, after t32, 14d
-    3.4 External review 2 (Kumar) :t34, 2027-01-11, 14d
-    Checkpoints defined :milestone, m1, 2027-01-11, 0d
-    
-    section Document
-    4.1 Evaluation report (Kumar) :crit, t41, after t33, 7d
-    4.2 Handover document (Reejan) :t42, 2027-01-25, 7d
-    4.3 Final submission (Kumar) :crit, t43, 2027-01-25, 7d
+    title Part B Project Plan (Weeks 1-10)
+    dateFormat  X
+    axisFormat  W%s
+    tickInterval 1week
+
+    section 1. Discovery
+    1.1 Review A1/A2 evidence (Kumar)      :done,    t11, 1, 1
+    1.2 Draft four checkpoints (Reejan)    :crit,    t12, 2, 2
+    1.3 Design bias-audit protocol (Reejan):crit,    t13, 4, 2
+
+    section 2. Build
+    2.1 Build checkpoint templates (Kumar) :t21, 6, 2
+    2.2 Build protocol template (Reejan)   :crit, t22, 6, 2
+    2.3 Build evaluation framework (Kumar) :t23, 8, 1
+
+    section 3. Validate
+    3.1 Ethics application (Reejan)        :t31, 6, 1
+    3.2 Internal review vs NIST RMF (Kumar):crit, t32, 9, 1
+    3.3 External desk review 1 (Reejan)    :crit, t33, 9, 2
+    3.4 External desk review 2 (Kumar)     :t34, 9, 2
+
+    section 4. Document
+    4.1 Evaluation report (Kumar)          :crit, t41, 10, 1
+    4.2 Handover document (Reejan)         :t42, 10, 1
+    4.3 Final submission (Kumar)           :crit, t43, 10, 1
+
+    section Milestones
+    Four checkpoints defined               :milestone, m1, 3, 0
+    Ethics submitted                       :milestone, m2, 6, 0
+    Validation complete                    :milestone, m3, 10, 0
+```
+, 7d
     Project Complete :milestone, m2, 2027-01-31, 0d
